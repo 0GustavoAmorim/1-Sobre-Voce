@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image:url(../images_detroit/choledetroit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    position: absolute;
+    width: 644px;
+    height: 76px;
+    left: 106px;
+    top: 38px;
+
+    font-family: 'Coming Soon', cursive;
+    font-size: 28px;
+    line-height: 98px;
+    text-align: center;
+
+    color: #000000;
+}
+.dialogo{
+    position: absolute;
+    width: 700px;
+    left: 88px;
+    top:  180px;
+
+    font-family: Coming Soon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #000000;
+}

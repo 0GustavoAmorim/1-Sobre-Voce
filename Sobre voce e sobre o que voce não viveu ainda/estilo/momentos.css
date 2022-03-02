@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(../images_red_dead/bg-reddead-arthur.jpg);
+    background-size: 100%;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat;
+}
+header{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.h1-header{
+    font-family: 'Bigshot One', cursive;
+    font-size: 90px;
+    line-height: 101px;
+
+    color: rgb(255, 255, 255);
+    font-style: bold; 
+    border: solid 1px #000;
+}
+
+div{
+    width: 100%;
+    display: flex;
+}

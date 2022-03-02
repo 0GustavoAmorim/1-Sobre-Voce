@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(../images_gta_curiosidades/bg-gtasa-pausa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pausa{
+    width: 10%;
+}
+.respostas{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: -180px;
+    text-align: center;
+    align-items: center;
+    color: #A2C9E8;
+    font-family: 'Diplomata', cursive;
+    font-size: 20px;
+}
+p:hover{
+    text-decoration: underline;
+    font-size: 150%;
+}

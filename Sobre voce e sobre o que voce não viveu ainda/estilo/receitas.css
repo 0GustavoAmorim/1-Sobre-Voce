@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+.box-principal{
+    position: relative;
+    width: 70%;
+    height: 2300px;
+    margin: 0 auto;
+    background: #C4C4C4;
+}
+.box-principal-lasanha{
+    position: relative;
+    width: 70%;
+    height: 3200px;
+    margin: 0 auto;
+    background: #C4C4C4;
+}
+.box-header{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    background: #9D9898;
+}
+.box-title{
+    position: relative;
+    width: 781px;
+    height: 64px;
+    top: 43px;
+    margin: 0 auto;
+
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #E13600;
+}
+.fotinha-strog{
+    position: absolute;
+    width: 520px;
+    height: 392px;
+    left: 80px;
+    top: 200px;
+
+    background: url(../images_receitas/fotinhocomida.png);
+}
+.fotinha-yaki{
+    position: absolute;
+    width: 520px;
+    height: 392px;
+    left: 80px;
+    top: 200px;
+
+    background: url(../images_receitas/yakisobabotino.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fotinha-lasanha{
+    position: absolute;
+    width: 520px;
+    height: 392px;
+    left: 80px;
+    top: 200px;
+
+    background: url(../images_receitas/lasanhabonita.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fotinha-donuts{
+    position: absolute;
+    width: 520px;
+    height: 392px;
+    left: 80px;
+    top: 200px;
+
+    background: url(../images_receitas/donutsbonito.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fotinha-ramen{
+    position: absolute;
+    width: 520px;
+    height: 392px;
+    left: 80px;
+    top: 200px;
+
+    background: url(../images_receitas/ramenbonito.jpg);
+}
+.fotinha-torta{
+    position: absolute;
+    width: 520px;
+    height: 392px;
+    left: 80px;
+    top: 200px;
+
+    background: url(../images_receitas/tortabonita.jpg);
+}
+.preparo{
+    position: absolute;
+    width: 193px;
+    height: 183px;
+    margin-left: 680px;
+    top: 200px;
+}
+.porcoes{
+    position: absolute;
+    width: 193px;
+    height: 183px;
+    margin-left: 680px;
+    top: 409px;
+}
+.box-ingredientes-lasanha{
+    position: absolute;
+    width: 810px;
+    height: 1150px;
+    left: 50px;
+    right: 50px;
+    margin: 0 auto;
+    top: 630px;
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+.box-ingredientes{
+    position: absolute;
+    width: 810px;
+    height: 900px;
+    left: 50px;
+    right: 50px;
+    margin: 0 auto;
+    top: 630px;
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+.icon-ingrediente{
+    margin-left: 250px;
+}
+.ingredientes{
+    margin-left: 100px;
+}
+ul{
+    font-size:30px;
+}
+.box-preparo{
+    position: absolute;
+    width: 810px;
+    height: 650px;
+    top: 950px;
+    margin: 0 auto;
+
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+.box-preparo-lasanha{
+    position: absolute;
+    width: 810px;
+    height: 1300px;
+    top: 1200px;
+    margin: 0 auto;
+
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+.icon-modopreparo{
+    margin-left: 250px;
+}
+ol{
+    margin-left: 100px;
+    font-size: 30px;
+}
